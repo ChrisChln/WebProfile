@@ -7,22 +7,22 @@
 
     /*========== Colors ==========*/
 /*========== Colors ==========*/
-/* 根据图片调整主色调 */
---hue-color: 18; /* 设置为图片中类似橙色的色调 */
+
+--hue-color: 18; 
 
 /* HSL color mode */
 --first-color: hsl(var(--hue-color), 100%, 58%); 
---first-color-second: hsl(var(--hue-color), 100%, 58%); /* 备用按钮颜色 */
---first-color-alt: hsl(var(--hue-color), 100%, 50%); /* 调暗一些的橙色 */
---first-color-lighter: hsl(var(--hue-color), 100%, 85%); /* 浅橙色 */
---title-color: hsl(var(--hue-color), 0%, 5%); /* 标题为黑色 */
---text-color: hsl(var(--hue-color), 5%, 20%); /* 深灰色文本 */
---text-color-light: hsl(var(--hue-color), 0%, 5%); /* 深黑色按钮文本 */
---input-color: hsl(var(--hue-color), 30%, 95%); /* 背景浅灰色 */
---body-color: hsl(var(--hue-color), 30%, 95%); /* 整体背景浅灰 */
---container-color: #fff; /* 容器白色背景 */
---scroll-bar-color: hsl(34, 100%, 83%); /* #d9376e，深粉色 */
---scroll-thumb-color: hsl(var(--hue-color), 100%, 58%); /* #ff8e3c 按钮颜色 */
+--first-color-second: hsl(var(--hue-color), 100%, 58%); 
+--first-color-alt: hsl(var(--hue-color), 100%, 50%); 
+--first-color-lighter: hsl(var(--hue-color), 100%, 85%); 
+--title-color: hsl(var(--hue-color), 0%, 5%); 
+--text-color: hsl(var(--hue-color), 5%, 20%); 
+--text-color-light: hsl(var(--hue-color), 0%, 5%); 
+--input-color: hsl(var(--hue-color), 30%, 95%); 
+--body-color: hsl(var(--hue-color), 30%, 95%); 
+--container-color: #fff; 
+--scroll-bar-color: hsl(34, 100%, 83%); 
+--scroll-thumb-color: hsl(var(--hue-color), 100%, 58%); 
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
